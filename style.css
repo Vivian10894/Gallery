@@ -1,0 +1,63 @@
+* {
+  background-color: GhostWhite;
+}
+.carousel {
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.title_v {
+  position: relative;
+  text-align: center;
+  top: 0;
+  font-family: "Montserrat";
+  font-size: 28px;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  opacity: 0;
+  animation-name: videoIn;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes videoIn {
+  from {
+    opacity: 0;
+    top: 30px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+.Logo {
+  margin: 30px;
+}
+
+.link {
+  width: 150px;
+  height: 30%;
+  border-top: solid 1px;
+  transform: rotate(90deg);
+  position: fixed;
+  right: 70px;
+  top: 305px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.beauty {
+  transform: rotate(90deg);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+.num {
+  position: fixed;
+  right: 29px;
+  top: 300px;
+}
+.tit {
+  position: fixed;
+  right: 12px;
+  top: 525px;
+}
